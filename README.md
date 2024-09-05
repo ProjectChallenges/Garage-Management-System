@@ -6,7 +6,15 @@ Parking management in urban areas is increasingly complex due to the rising numb
 
 ## Solution Concept
 
-This project aims to develop a Java-based application that manages parking spaces within a garage. The application allows users to register a vehicle with a unique license plate and assign it to a specific type of space (car or motorcycle) on a particular floor. The system ensures that each parking space is uniquely occupied and provides real-time updates on the status of the garage's capacity.
+The core computer science challenge addressed by this project is **Resource Allocation** within a constraint-based system. Specifically, the system manages the allocation of limited parking spaces to a fluctuating inventory of vehicles, ensuring optimal space usage without conflicts.
+
+This problem is addressed through the use of several key data structures and algorithms:
+- **Arrays and HashMaps**: These are used to map vehicles (identified by license plates) to specific parking slots on various floors, efficiently tracking which spaces are occupied and by whom.
+- **Unique Identification and Verification**: The application ensures that each vehicle is uniquely identified by its license plate. This involves checking new entries against existing records to prevent duplication, a fundamental aspect of maintaining data integrity in systems handling unique identifiers.
+- **Dynamic Input Handling**: Utilizing loops and conditional statements, the program continuously accepts and processes user inputs based on the current state of the garage, making real-time decisions about where vehicles can be placed based on availability and predefined rules.
+
+These components are integral to solving the problem of efficiently managing a finite number of parking spaces in a way that is scalable and responsive to user input, typical of many real-world applications in resource management and allocation.
+
 
 ## Learning Objectives
 
